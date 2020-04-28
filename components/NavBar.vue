@@ -13,7 +13,14 @@
           <nuxt-link class="nav-link" to="/link"> Link</nuxt-link>
         </li>
       </ul>
-
+      <div class="navbar-nav ml-md-auto">
+        <li class="nav-item">
+          <nuxt-link class="nav-link" to="/login">Login</nuxt-link>
+        </li>
+        <li class="nav-item">
+          <nuxt-link class="nav-link" to="/registrar">registrar</nuxt-link>
+        </li>
+      </div>
     </div>
   </nav>
 </template>
